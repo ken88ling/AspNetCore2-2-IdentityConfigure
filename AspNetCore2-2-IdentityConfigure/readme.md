@@ -1,4 +1,4 @@
-﻿# Read me - Identity configuration change type
+﻿# Read me - Identity configuration change primary key datatype to integer
 
 1. Delete migrations folder which auto generated
 2. Create 2 .cs which is ApplicationUser, ApplicationRole
@@ -18,3 +18,8 @@
                 .AddDefaultTokenProviders();
 
         }
+```
+
+4. cmd on root folder. 
+5. dotnet ef migrations add InitialCreate(comment that you like)
+6. dotnet ef database update
