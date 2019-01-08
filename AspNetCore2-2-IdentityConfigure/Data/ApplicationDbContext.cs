@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AspNetCore2_2_IdentityConfigure.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, int>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
