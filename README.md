@@ -1,4 +1,4 @@
-# AspNetCore2-2-Identity Configuration
+# AspNetCore2-2-Identity Configuration - change primary key datatype to integer
 
 Asp.net core 2.2 Identity configuration change primary key datatype to integer
 
